@@ -20,27 +20,32 @@ Este projeto é uma aplicação Node.js que utiliza Express para criar uma API R
 * Sequelize CLI: Ferramenta de linha de comando para gerenciar migrações e modelos do Sequelize.
 
 # Estrutura do Projeto
-Node_React/
-├── src/
-│   ├── app/
-│   │   ├── controllers/
-│   │   │   ├── CustomersController.js
-│   │   │   └── ContactsController.js
-│   │   ├── models/
-│   │   │   ├── Customer.js
-│   │   │   └── Contact.js
-│   ├── config/
-│   │   └── database.js
-│   ├── database/
-│   │   ├── migrations/
-│   │   └── seeds/
-│   ├── server.js
-│   └── playground.js
-├── .sequelizerc
-├── .env
-├── package.json
-└── yarn.lock
-
+Node_React/  
+├── src/  
+│   ├── app/  
+│   │   ├── controllers/  
+│   │   │   ├── CustomersController.js  
+│   │   │   └── ContactsController.js  
+│   │   ├── models/  
+│   │   │   ├── Customer.js  
+│   │   │   └── Contact.js  
+│   ├── config/  
+│   │   └── database.js  
+│   ├── database/  
+│   │   ├── migrations/  
+│   │   └── seeds/  
+│   ├── server.js  
+│   └── playground.js  
+├── .editorconfig  
+├── .env  
+├── .prettierrc  
+├── .sequelizerc  
+├── eslint.config.mjs  
+├── nodemon.json  
+├── package.json  
+├── README.md  
+└── yarn.lock  
+  
 # Scripts Disponíveis
 * `dev`: Inicia o servidor em modo de desenvolvimento com Nodemon.
 ```sh
