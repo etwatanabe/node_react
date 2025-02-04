@@ -36,9 +36,14 @@ Node_React/
 │   │   └── seeds/
 │   ├── server.js
 │   └── playground.js
-├── .sequelizerc
+├── .editorconfig
 ├── .env
+├── .prettierrc
+├── .sequelizerc
+├── eslint.config.mjs
+├── nodemon.json
 ├── package.json
+├── README.md
 └── yarn.lock
 
 # Scripts Disponíveis
